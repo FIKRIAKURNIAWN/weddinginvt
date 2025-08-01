@@ -1,0 +1,70 @@
+:root {
+    --blue: #4315e9; 
+    --background-color: #0a0a0a;
+    --shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: "Work Sans", sans-serif  black;
+    min-height: 2000px;
+    font-style: black;
+}
+
+
+
+
+
+}
+.hero {
+    min-height: 100vh;
+    background-color: var(--blue);
+}
+
+.hero h1 {
+    font-family: "Sacramento", cursive;
+    font-size: 6rem;
+    color: #0a0a0a;
+}
+
+.hero h4 {
+    font-size: 1.6rem;
+    color: #0a0a0a;
+}
+
+.hero p {
+    font-size: 1.4rem;
+    color: #0a0a0a;
+}
+
+.hero a {
+    color: var(--blue);
+    background-color: aliceblue;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.hero a:hover {
+    background-color: white;
+    color: black;
+    box-shadow: var(--shadow);
+    transition: all 0.3s ease;
+}
+
+.hero {
+    position: relative;
+    min-height: 100vh;
+    background-color: var(--blue); /* bisa hapus jika pakai background image penuh */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('img/pexels-vietfotos-19476293.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    z-index: -1; /* Penting! Biar di belakang teks */
+}
